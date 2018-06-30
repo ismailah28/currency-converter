@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Currency Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark header">
+        <a class="navbar-brand" href="#">
+            <i class="fa fa-usd"></i> Currency Converter</a>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 offset-xl-2 jumbotron text-center">
+                <h3 class="display-8 text-center">Currency Converter</h3>
+                <p>
+                    This is a simple currency converter class that is mobile responsive, works offline and works very well with a poor network
+                    connection
+                </p>
+                <hr>
+                <p>It is built using html, css, javascript and bootstrap 4</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="card">
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="amount">Amount</label>
+                                <input type="number" class="form-control" id="amount" placeholder="enter amount">
+                            </div>
+                            <div class="form-group">
+                                <label for="fromCurrency">From</label>
+                                <select class="form-control" id="fromCurrency">
+                                    <!-- <option value="USD">USD</option>
+                                    <option value="PHP">PHP</option> -->
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="toCurrency">To</label>
+                                <select class="form-control" id="toCurrency">
+                                    <!-- <option value="USD">USD</option>
+                                    <option value="PHP">PHP</option> -->
+                                </select>
+                            </div>
+                            <hr>
+                            <div class="form-row">
+                                <div class="col-auto">
+                                    <input type="submit" class="btn btn-large btn-outline-primary" value="Convert" id="convert">
+                                </div>
+                                <div class="col">
+                                    <input id="converted" type="text" disabled class="form-control">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

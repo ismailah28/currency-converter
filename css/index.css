@@ -1,0 +1,39 @@
+body {
+  /* background-color: linen; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+  background-color: darkblue;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.jumbotron {
+  background-color: white;
+  color: darkblue;
+  padding-top: 5px;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+
+.card {
+  max-width: 100%;
+  /* min-width: 200px; */
+  margin: 0 auto;
+  outline-color: darkblue;
+}
+
+hr {
+  background-color: darkblue;
+}
+
+btn-outline-primary {
+  outline-color: darkblue;
+}
+
+form div select:focus {
+  outline-color: darkblue;
+  color: rgb(0, 9, 139);
+  border-color: blue;
+}
